@@ -8,5 +8,5 @@ export const Connection =(user,passwrod) => {
     })
 }
 mongoose.connection.on('disconnected',() => {
-    console.log("Error while connecting database" ,error.message)
+    console.log("Error while connecting database" )
 })

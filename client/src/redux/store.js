@@ -1,6 +1,7 @@
 import {createStore,combineReducers, applyMiddleware} from 'redux';
 import {composeWithDevTools} from "redux-devtools-extension"
 import thunk from 'redux-thunk'
+import { todoReducers } from './reduces/todoReducers.js';
 
 const reducer = combineReducers({
 
